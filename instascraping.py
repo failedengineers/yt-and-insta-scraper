@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 from datetime import datetime
-from TRIAL import instagram_scraper
+from homeinstascrapping import instagram_scraper
+
 
 
 def instagram_scraper(url, username, password):
